@@ -15,7 +15,8 @@ public class FinalProject {
 			rateUS = 0.0015; 
 			Mexico = 121000000; 
 			US = 315000000; 
-			
+		
+		//Create a loop to calculate the population each year
 			while (US >= Mexico) {
 				year+=1;
 				
@@ -27,6 +28,7 @@ public class FinalProject {
 			US = US - (US * rateUS); 
 						
 		}
+		//Declare how many years it took for the population of Mexico to exceed that of the US
 			System.out.println("It took " + year + " years for the population of Mexico to exceed the population of United States");
 	}
 	}
