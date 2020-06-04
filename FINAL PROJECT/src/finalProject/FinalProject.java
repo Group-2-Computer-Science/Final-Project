@@ -4,12 +4,13 @@ public class FinalProject {
 
 	public static void main(String[] args) {
 		public static void main(String[] args) {
-	// Project 2 
+	// Task 2 
+		//Declare all the variables
 		double Mexico, US; 
 		double rateM, rateUS; 
 		int year; 
 		
-		//Declare all the variables
+		//Assign the correspondent values
 			year = 0;
 			rateM = 0.0101; 
 			rateUS = 0.0015; 
