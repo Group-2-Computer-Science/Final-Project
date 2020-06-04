@@ -9,7 +9,7 @@ public class FinalProject {
 	double Mexico, US, year; 
 	double rateM, rateUS; 
 		
-		year = 0;
+		year = 1;
 		rateM = 1.01; 
 		rateUS = 0.15; 
 		Mexico = 121000000; 
