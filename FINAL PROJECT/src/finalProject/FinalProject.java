@@ -3,11 +3,25 @@ package finalProject;
 public class FinalProject {
 
 	public static void main(String[] args) {
-	double mex=121000000;
-	double mexrate=1.01;
-	double us=315000000;
-	double usrate=0.15;
-	int year=0;
+		//Project 2 
+		
+	//Declare the necessary variables
+	double Mexico, US, year; 
+	double rateM, rateUS; 
+		
+		year = 0;
+		rateM = 1.01; 
+		rateUS = 
+		
+		Mexico = 121000000; 
+		US = 315000000; 
+		
+		System.out.println("The population of Mexico on year " + year + " is: " + Mexico);
+		System.out.println("The population of the United States on year " + year + " is: " + US);
+		
+		//Set up the new population
+		Mexico = Mexico + (Mexico * rateM); 
+		US = US - (US * rateUS); 
 
 	}
 
