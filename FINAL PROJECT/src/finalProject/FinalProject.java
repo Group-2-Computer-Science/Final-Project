@@ -11,8 +11,7 @@ public class FinalProject {
 		
 		year = 0;
 		rateM = 1.01; 
-		rateUS = 
-		
+		rateUS = 0.15; 
 		Mexico = 121000000; 
 		US = 315000000; 
 		
