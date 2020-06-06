@@ -1,0 +1,54 @@
+# Analysis of Tasks in Final-Project
+Task 1- Game (Yolanda) 
+   a) Describe the problem
+      This problem is asking us to create an interactive game where the computer and the user take turns to enter a value from 1 to 3,
+      which are then added to a running total. The player who enters a value that exceeds 21 looses. The idea is to create an algorithm
+      that makes the computer the winner regardless of what the user enters. As input we have the initial value assigned by the computer
+      and the values that the user enters. As output we have the running total. 
+  
+   b) Describe the steps to solve the problem
+      Yolanda made a good analysis and solved the problem. However, the way the computer is winning is when the total is equal to 21,
+      not greater than 21 (which is what the instruction asks). That is something we have to correct. 
+   
+   c) Describe how you test this program
+      The logic of this program is honestly complicated. Playing around with the numbers to create a technique that guarantees that
+      the computer always wins requires a lot of trial and error. I was impressed by the logic Yolanda used. 
+   
+   
+Task 2- Population (Isabella and Madina)
+   a) Describe the problem
+      The problem is asking us to create an application that calculates and displays the annual population of both Mexico and the 
+      United States according to their growth and decay rate (respectively), until the population of Mexico is greater than that of the US. 
+      As an input, we have the initial population of both countries and their percentage growth rate. 
+      The output includes the number of the years that pass, the change in population in each of them, and finally, the total years it took 
+      for the population of Mexico to surpass the population of the US.
+      
+   b) Describe the steps to solve the problem
+      First, we declared all the variables needed and assinged their respective values: Mexico, US, rateM, rateUS, year. 
+      Second, we created a loop that keeps on calculating the changes in population while the population
+      of the US remains greater than Mexico's, with an accumulator for the number of years that pass.
+      Finally, once the condition is false and the loop ends, we printed the total years it took and each nation's population. 
+      
+   c) Describe how you test this program 
+      Through trial and error, we determined how to make the program work properly. After declaring the variables, 
+      we set the accumulator for the years, calculated the new population, and printed the information to see if we 
+      were getting correct values for year 1. At that moment we realized we had not taken into consideration that the rates of  
+      change were given in percentages, so we were getting wrong results. We corrected the formulas by dividing the rates 
+      by 100 and ran the program again. Having the correct values now, we created a loop using the while command to execute the
+      block of code while our boolean expression (US >= Mexico) evaluates to be true and we ran the program again. 
+      Everything worked properly, so lastly we printed the final sentence with the total values. 
+      
+Task 3- Integers (Jayden and Isabella)
+   a) Describe the problem 
+      The problem is asking us to organize and display a given array of integers from least to greatest and vice-versa. The input is
+      the array itself. 
+   b) Describe the steps to solve the problem
+      By using loops, I made a program that goes through the array and organizes it from least to greatest regardless of the order of
+      its integers. Then, having the array organized, I printed it. Lastly, to invert order, I printed it using a loop that goes through
+      the already organized array from right to left. 
+   c) Describe how you test this program
+      As the rest of the programs, it was a matter of trial and error. I made the first two loops and printed them to see if they worked. 
+      Realizing that they did, then I created the last loop to print the array backwards and ran the program again.
+
+
+
