@@ -41,10 +41,8 @@ System.out.println("\n");
 			for(int x= vector.length-1; x>=0; x--) {
 
 	              System.out.print(vector[x]+" ");
-
+			}
+		}
 	}
-
-	}
-}
 
 
