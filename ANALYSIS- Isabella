@@ -1,5 +1,5 @@
 # Analysis of Tasks in Final-Project
-Task 1- Game (Made by Yolanda) 
+Task 1- Game (Yolanda) 
    a) Describe the problem
       This problem is asking us to create an interactive game where the computer and the user take turns to enter a value from 1 to 3,
       which are then added to a running total. The player who enters a value that exceeds 21 looses. The idea is to create an algorithm
