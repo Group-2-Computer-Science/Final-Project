@@ -40,7 +40,15 @@ Task 2- Population
       
 Task 3- Integers
    a) Describe the problem 
-
+      The problem is asking us to organize and display a given array of integers from least to greatest and vice-versa. The input is
+      the array itself. 
+   b) Describe the steps to solve the problem
+      By using loops, I made a program that goes through the array and organizes it from least to greatest regardless of the order of
+      its integers. Then, having the array organized, I printed it. Lastly, to invert order, I printed it using a loop that goes through
+      the already organized array from right to left. 
+   c) Describe how you test this program
+      As the rest of the programs, it was a matter of trial and error. I made the first two loops and printed them to see if they worked. 
+      Realizing that they did, then I created the last loop to print the array backwards and ran the program again.
 
 
 
