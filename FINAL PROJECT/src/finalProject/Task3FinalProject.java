@@ -43,6 +43,6 @@ System.out.println("\n");
 	              System.out.print(vector[x]+" ");
 			}
 		}
-	}
-
+	} 
+  
 
