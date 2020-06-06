@@ -1,0 +1,4 @@
+The objective for the question is display the number from first to last and from last to first in array. 
+From first to last, we can use the for loop to start form index=0, index++ util the last one and then display the index. 
+From last to first, we also use for loop to start from index=array.length  and then index--. 
+So it can display the number from last to first. The key of the question is the for loop condition.
