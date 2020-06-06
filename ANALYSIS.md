@@ -1,0 +1,26 @@
+# Analysis of Tasks in Final-Project
+Task 1- Game
+Task 2- Population
+   a) Describe the problem
+      The problem is asking us to create an application that calculates and displays the annual population of both Mexico and the 
+      United States according to their growth and decay rate (respectively), until the population of Mexico is greater than that of the US. 
+      As an input, we have the initial population of both countries and their percentage growth rate. 
+      The output includes the number of the years that pass, the change in population in each of them, and finally, the total years it took 
+      for the population of Mexico to surpass the population of the US.
+      
+   b) Describe the steps to solve the problem
+      First, we declared all the variables needed and assinged their respective values: Mexico, US, rateM, rateUS, year. 
+      Second, we created a loop that keeps on calculating the changes in population while the population
+      of the US remains greater than Mexico's, with an accumulator for the number of years that pass.
+      Finally, once the condition is false and the loop ends, we printed the total years it took and each nation's population. 
+      
+   c) Describe how you test this program 
+      Through trial and error, we determined how to make the program work properly. After declaring the variables, 
+      we set the accumulator for the years, calculated the new population, and printed the information to see if we 
+      were getting correct values for year 1. At that moment we realized we had not taken into consideration that the rates of  
+      change were given in percentages, so we were getting wrong results. We corrected the formulas by dividing the rates 
+      by 100 and ran the program again. Having the correct values now, we created a loop using the while command to execute the
+      block of code while our boolean expression (US >= Mexico) evaluates to be true and we ran the program again. 
+      Everything worked properly, so lastly we printed the final sentence with the total values. 
+      
+Task 3- Integers
