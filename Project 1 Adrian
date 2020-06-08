@@ -1,0 +1,42 @@
+package project1;//Adrian Chui
+import java.util.Scanner;
+import java.util.Random;
+public class Project1 {
+
+	public static void main(String args[]) {
+        Scanner keyboard = new Scanner(System.in);
+     	Random r= new Random();
+        System.out.println("Game starting....");
+    
+      	int sum=1;
+      	System.out.println(sum);
+		for(int i = 0; i < 100; i++) {
+          int num=1;
+          System.out.println("User enter your number to add: ");
+          int fill=keyboard.nextInt();
+          if (fill>3&&fill<1){ 
+				for (int error=0; error<100; error++){
+					System.out.println("User re-enter your number to add:");
+					int fill1=keyboard.nextInt();
+					if (fill1>0&&fill1<4) {
+					break;// break
+                    }
+                }
+            System.out.println(args[i]);  
+        }
+        sum+=fill;
+        if (sum>=21&&num/2!=0) {
+				System.out.println("You lost!");
+				break;//Break the loop
+				}
+			
+			if (sum>=21&&num/2==0) {
+				System.out.println("You win!");
+				break;//break the loop
+				}
+		}
+	}
+}
+		
+
+
