@@ -1,0 +1,3 @@
+1. It is a user input based program which requires the user to keep entering until the input reaches 21 which will break the loop. The program also output instructions to indicate the user to enter the number in the game.
+2. First I have to thought of how to restrict the user to enter the number within 1 to 3 which I then decided to use an if loop to restrict the conditions of the loop or it will jump into the for loop with is for error entry.
+3. I did try entering first trial run in a nomal gaming way and an intended way to enter number like 0 or 4 into the program to make sure it runs smoothly. I also tried to enter alphabets into the input which actually led to error.
